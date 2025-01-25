@@ -10,7 +10,7 @@ const Modal = ({ isOpen, onClose, text, message}) => {
         <p className='text-black'>{message}</p>
         <button
           onClick={onClose}
-          className="mt-4 bg-yellow-600 text-white py-2 px-4 rounded-lg"
+          className="mt-4 bg-yellow-600 text-white py-2 px-4 rounded-lg hover:bg-yellow-500 ocus:outline-none focus:ring-2 focus:ring-yellow-600"
         >
           Close
         </button>
